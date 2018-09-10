@@ -1,0 +1,22 @@
+{
+  "name": "lamassu-machine",
+  "license": "Unlicense",
+  "version": "7.0.0",
+  "dependencies": {},
+  "optionalDependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lidio601/lamassu-camera-module.git"
+  },
+  "scripts": {},
+  "gypfile": true,
+  "standard": {
+    "ignore": [
+      "build/**"
+    ]
+  },
+  "browserslist": [
+    "Chrome >= 29"
+  ]
+}
