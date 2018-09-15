@@ -132,7 +132,7 @@ void startCapture(const FunctionCallbackInfo<Value>& args) {
     }
 
     // https://stackoverflow.com/questions/27496698
-    bag->capture->set(CV_CAP_PROP_MODE, CV_CAP_MODE_YUYV);
+    // bag->capture->set(CV_CAP_PROP_MODE, CV_CAP_MODE_YUYV);
 
 #ifdef DEBUG_WINDOW
     cv::waitKey(10);
