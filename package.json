@@ -1,7 +1,7 @@
 {
-  "name": "lamassu-machine",
+  "name": "lamassu-camera-module",
   "license": "Unlicense",
-  "version": "7.0.0",
+  "version": "1.0.0",
   "dependencies": {
     "lodash": "^4.17.11"
   },
