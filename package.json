@@ -2,14 +2,18 @@
   "name": "lamassu-machine",
   "license": "Unlicense",
   "version": "7.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
   "optionalDependencies": {},
   "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git@github.com:lidio601/lamassu-camera-module.git"
   },
-  "scripts": {},
+  "scripts": {
+    "test": "node lib/camera/examples/example.js"
+  },
   "gypfile": true,
   "standard": {
     "ignore": [
