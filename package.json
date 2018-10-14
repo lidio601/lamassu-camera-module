@@ -6,13 +6,18 @@
     "lodash": "^4.17.11"
   },
   "optionalDependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "image-size": "^0.6.3",
+    "tape": "^4.9.1"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:lidio601/lamassu-camera-module.git"
   },
   "scripts": {
-    "test": "node lib/camera/examples/example.js"
+    "example": "node lib/camera/examples/example.js",
+    "test": "tape tests/**/*.js",
+    "install": "node-gyp rebuild"
   },
   "gypfile": true,
   "standard": {

@@ -6,7 +6,9 @@ apt-get update
 
 apt-get install -y curl
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-apt install -y nodejs
+apt-get update
+sudo apt-get install gcc g++ make nodejs
+sudo npm install -g node-gyp node-pre-gyp
 
 # Install OpenCV 2.4.8
 apt-get install -y \
