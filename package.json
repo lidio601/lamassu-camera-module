@@ -16,7 +16,7 @@
   },
   "scripts": {
     "example": "node lib/camera/examples/example.js",
-    "test": "tape tests/**/*.js",
+    "test": "tape lib/camera/tests/**/*.js",
     "install": "node-gyp rebuild"
   },
   "gypfile": true,
