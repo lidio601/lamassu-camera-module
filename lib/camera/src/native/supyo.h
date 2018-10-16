@@ -35,7 +35,7 @@
 /**
  * max number of detected objects
  */
-#define MAXNDETECTIONS 2048
+#define MAXNDETECTIONS 10
 
 /**
  * how much to move the window between neighboring detections increasing this
@@ -63,7 +63,6 @@
 #define CUTOFF_THRES 6.5
 #endif
 
-bool detect(cv::Mat greyFrame, float cutoffThres, int minFaceSize);
-bool detect(cv::Mat greyFrame);
+bool detect(cv::Mat greyFrame, cv::Mat colorFrame, TMessage* bag);
 
 #endif //CAMERA_WRAPPER_SUPYO_H
